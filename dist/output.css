@@ -577,6 +577,10 @@ video {
   line-height: 1.75rem;
 }
 
+.hover\:cursor-pointer:hover {
+  cursor: pointer;
+}
+
 @media (prefers-color-scheme: dark) {
   .dark\:bg-cyan-900 {
     --tw-bg-opacity: 1;
